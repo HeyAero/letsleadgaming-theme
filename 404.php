@@ -1,8 +1,4 @@
 <?php
-/**
- * Main Template File
- *
- */
 
 get_header();
 ?>
