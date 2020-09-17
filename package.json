@@ -1,0 +1,22 @@
+{
+  "name": "letsleadgaming-theme",
+  "version": "1.0.0",
+  "description": "Lets Lead Gaming - Custom WP Theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Coming Soon"
+  },
+  "author": "Aaron Yates",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "scss": "node-sass --watch scss -o css"
+  }
+}
