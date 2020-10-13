@@ -1,22 +1,27 @@
 {
   "name": "letsleadgaming-theme",
-  "version": "1.0.0",
-  "description": "Lets Lead Gaming - Custom WP Theme",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "Lets Lead Gaming Theme, a home project for my portfolio. It is a gaming community themed website promoting community events.",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-sass": "^4.1.0",
+    "node-normalize-scss": "^8.1.2",
+    "node-sass": "^4.14.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "Coming Soon"
+    "url": "git+https://github.com/HeyAero/letsleadgaming-theme.git"
   },
   "author": "Aaron Yates",
   "license": "ISC",
-  "dependencies": {
-    "node-sass": "^4.14.1"
+  "bugs": {
+    "url": "https://github.com/HeyAero/letsleadgaming-theme/issues"
   },
-  "scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1",
-  "scss": "node-sass --watch scss -o css"
-  }
+  "homepage": "https://github.com/HeyAero/letsleadgaming-theme#readme"
 }
