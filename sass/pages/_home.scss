@@ -1,0 +1,23 @@
+body {
+  background-color: $body-color;
+}
+
+#homeContent {
+  background-image: url("http://letsleadgaming.test/wp-content/uploads/2020/10/background.png");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.landing-div {
+  padding-top: 100px;
+}
+
+.landing-gap {
+  margin-top: 200px;
+}
+
+.infobox {
+  background-color: $body-color;
+}

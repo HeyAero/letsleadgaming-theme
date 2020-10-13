@@ -1,0 +1,18 @@
+nav {
+  a {
+    color: $text-gray;
+  }
+
+  a:hover {
+    color: white;
+    text-decoration: none;
+  }
+
+  a:active {
+    color: $text-orange;
+  }
+
+  li {
+    color: white;
+  }
+}
