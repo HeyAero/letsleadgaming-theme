@@ -1,12 +1,34 @@
+/*Typography Variable */
+$text-orange-lighter: #ffb358;
+$text-orange: #f7941d;
+$text-gray: #d3d3d3;
+
 /* Header Vairables */
 $header-color: #111111;
+
+/* Footer Vairables */
+$footer-bck-color: #111111;
+$footer-link-color: $text-orange;
+$footer-link-color-hover: $text-orange-lighter;
 
 /*Body Vairables */
 $body-color: #1c1c1c;
 
-/*Typography Variable */
-$text-orange: #f7941d;
-$text-gray: #d3d3d3;
-
 /*Jumbotron Variables */
 $jumbotron-color: #111111;
+
+/*HR Vairables */
+$hr-color: $text-orange;
+
+/*Colors*/
+$row-color: #111111;
+$row-border-color: black;
+
+/*Sizings*/
+$row-border-style: solid;
+$row-border-size: 2px;
+$row-border-radius: 25px;
+
+/*Buttons*/
+$button-color: $text-orange;
+$button-bck-color: $text-orange;

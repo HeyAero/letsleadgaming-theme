@@ -7,11 +7,19 @@ Description: Temp
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
-/* Header Vairables */
-/*Body Vairables */
 /*Typography Variable */
+/* Header Vairables */
+/* Footer Vairables */
+/*Body Vairables */
 /*Jumbotron Variables */
+/*HR Vairables */
+/*Colors*/
+/*Sizings*/
+/*Buttons*/
 @import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  overflow-x: hidden; }
+
 body, body * {
   font-family: 'Commissioner', sans-serif; }
 
@@ -19,11 +27,14 @@ nav {
   font-family: 'Commissioner', sans-serif; }
   nav a {
     margin: 0 10px 0 10px;
-    font-size: 2rem;
-    font-weight: 100; }
+    font-size: 1rem;
+    font-weight: 600; }
 
 p, h1, h2, h3, h4, h5 {
   color: white; }
+
+span {
+  color: #f7941d; }
 
 .landing-div h1 {
   font-size: 3.5rem; }
@@ -31,11 +42,30 @@ p, h1, h2, h3, h4, h5 {
 .landing-div h2 {
   font-size: 2.5rem; }
 
-.landing-div span {
-  color: #f7941d; }
-
 .landing-div p {
   font-size: 1.5rem; }
+
+.about-div h1 {
+  font-weight: 700; }
+
+/*BUTTONS*/
+.info-button {
+  font-weight: 800; }
+
+.info-button {
+  padding: 10px;
+  border: solid 2px #f7941d;
+  text-align: center;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0);
+  color: #f7941d;
+  border-radius: 50px; }
+
+i {
+  color: #f7941d; }
+
+hr {
+  background-color: #f7941d; }
 
 nav a {
   color: #d3d3d3; }
@@ -53,11 +83,32 @@ nav li {
 .navbar {
   background-color: #111111; }
 
+footer {
+  margin-top: -25px;
+  padding: 25px;
+  background-color: #111111; }
+  footer img {
+    margin: 10px 0 10px 0; }
+  footer ul {
+    clear: left;
+    padding: 0; }
+  footer li {
+    list-style-type: none; }
+  footer a {
+    color: #f7941d; }
+  footer a:hover, footer a:active {
+    text-decoration: none;
+    color: #ffb358; }
+
+.social-links i {
+  margin-left: 10px;
+  margin-right: 10px; }
+
 body {
   background-color: #1c1c1c; }
 
 #homeContent {
-  background-image: url("http://letsleadgaming.test/wp-content/uploads/2020/10/background.png");
+  background-image: url("https://i.imgur.com/kgw70KP.jpg");
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center;
@@ -69,8 +120,24 @@ body {
 .landing-gap {
   margin-top: 200px; }
 
-.infobox {
+.about-div {
+  padding-top: 50px;
+  margin-top: -50px;
   background-color: #1c1c1c; }
+
+.about-header {
+  padding-bottom: 25px;
+  max-width: 350px; }
+  .about-header img {
+    margin-bottom: 50px; }
+
+.about-footer {
+  padding-bottom: 50px;
+  max-width: 350px; }
+
+.row-content {
+  margin: 0 20px 0 20px;
+  padding: 20px; }
 
 .jumbotron {
   background-color: #111111; }

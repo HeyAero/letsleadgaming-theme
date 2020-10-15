@@ -3,7 +3,7 @@ body {
 }
 
 #homeContent {
-  background-image: url("http://letsleadgaming.test/wp-content/uploads/2020/10/background.png");
+  background-image: url("https://i.imgur.com/kgw70KP.jpg");
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center;
@@ -18,6 +18,27 @@ body {
   margin-top: 200px;
 }
 
-.infobox {
+.about-div {
+  padding-top: 50px;
+  margin-top: -50px;
   background-color: $body-color;
+}
+
+.about-header {
+  padding-bottom: 25px;
+  max-width: 350px;
+
+  img {
+    margin-bottom: 50px;
+  }
+}
+
+.about-footer {
+  padding-bottom: 50px;
+  max-width: 350px;
+}
+
+.row-content {
+  margin: 0 20px 0 20px;
+  padding: 20px;
 }

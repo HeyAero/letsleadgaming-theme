@@ -7,14 +7,21 @@
     </head>
     <body <?php body_class(); ?>>
     <nav class="navbar pl-5 pr-5">
-        <a class="navbar-brand" href="#">
-            <img src="http://letsleadgaming.test/wp-content/uploads/2020/10/logo.png" style="width:100px">
-        </a>
-        <ul class="navbar-nav d-flex flex-row ml-auto">
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">Games</a></li>
-            <li><a href="#">Contact Us</a></li>
-        </ul>
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://letslead.yourlocaldev.com/wp-content/uploads/2020/10/logo.png" style="width:100px">
+            </a>
+            <div class="d-none d-md-flex">
+                <ul class="navbar-nav d-flex flex-row ml-auto">
+                    <li><a href="#" class="active">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">EVENTS</a></li>
+                    <li><a href="#">GAMES</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="d-flex d-md-none ml-auto">
+                <a id="mobileMenu"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
+            </div>
+        </div>
     </nav>
