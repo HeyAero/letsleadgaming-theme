@@ -16,6 +16,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 /*Colors*/
 /*Sizings*/
 /*Buttons*/
+/*Cards*/
 @import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;600;700;800;900&display=swap");
 body {
   overflow-x: hidden; }
@@ -61,6 +62,16 @@ span {
   color: #f7941d;
   border-radius: 50px; }
 
+.about-footer a {
+  color: #f7941d; }
+
+.about-footer a:hover {
+  color: #ffb358;
+  text-decoration: none; }
+
+.about-footer a:active {
+  color: #ffb358; }
+
 i {
   color: #f7941d; }
 
@@ -83,6 +94,18 @@ nav li {
 .navbar {
   background-color: #111111; }
 
+.notice-div {
+  padding: 10px;
+  background-color: #111111;
+  color: white; }
+  .notice-div a {
+    color: #f7941d; }
+  .notice-div a:hover {
+    color: #ffb358;
+    text-decoration: none; }
+  .notice-div a:active {
+    color: #ffb358; }
+
 footer {
   margin-top: -25px;
   padding: 25px;
@@ -103,6 +126,10 @@ footer {
 .social-links i {
   margin-left: 10px;
   margin-right: 10px; }
+
+.about-landing {
+  padding-top: 50px;
+  padding-bottom: 50px; }
 
 body {
   background-color: #1c1c1c; }
@@ -140,4 +167,7 @@ body {
   padding: 20px; }
 
 .jumbotron {
+  background-color: #111111; }
+
+.card {
   background-color: #111111; }

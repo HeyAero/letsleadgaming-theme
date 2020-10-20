@@ -64,7 +64,7 @@ the_post();
                         <p>Ever wanted to take part in a eSport Tournament? Look no further. We host fortnightly eSports Tournaments in all the leading eSports titles.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 px-4 ">
+                <div class="col-lg-4 px-4">
                     <div class="row-content">
                         <div class="">
                             <i class="fa fa-gamepad fa-4x mb-2" aria-hidden="true"></i>

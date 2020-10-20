@@ -6,6 +6,9 @@
         <?php wp_head(); ?>
     </head>
     <body <?php body_class(); ?>>
+    <div class="notice-div sticky-top text-center">
+        Please note that this website is for demonstration purposes only. Visit <a href="http://yourlocaldev.com/portfolio/">here</a> to view more of my work.
+    </div>
     <nav class="navbar pl-5 pr-5">
         <div class="container">
             <a class="navbar-brand" href="#">

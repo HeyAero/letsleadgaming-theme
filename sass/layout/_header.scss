@@ -1,3 +1,22 @@
 .navbar {
   background-color: $header-color;
 }
+
+.notice-div {
+  padding: 10px;
+  background-color: $header-color;
+  color: white;
+
+  a {
+    color: $text-orange;
+  }
+
+  a:hover {
+    color: $footer-link-color-hover;
+    text-decoration: none;
+  }
+
+  a:active {
+    color: $footer-link-color-hover;
+  }
+}

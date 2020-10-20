@@ -7,3 +7,18 @@
   color: $button-color;
   border-radius: 50px;
 }
+
+.about-footer {
+  a {
+    color: $text-orange;
+  }
+
+  a:hover {
+    color: $footer-link-color-hover;
+    text-decoration: none;
+  }
+
+  a:active {
+    color: $footer-link-color-hover;
+  }
+}
