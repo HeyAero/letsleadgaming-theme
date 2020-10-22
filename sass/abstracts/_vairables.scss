@@ -2,12 +2,13 @@
 $text-orange-lighter: #ffb358;
 $text-orange: #f7941d;
 $text-gray: #d3d3d3;
+$discord-color: #8a9cfe;
 
 /* Header Vairables */
-$header-color: #111111;
+$header-color: #090909;
 
 /* Footer Vairables */
-$footer-bck-color: #111111;
+$footer-bck-color: #090909;
 $footer-link-color: $text-orange;
 $footer-link-color-hover: $text-orange-lighter;
 
@@ -36,3 +37,6 @@ $button-bck-color: $text-orange;
 /*Cards*/
 $card-color: white;
 $card-color-bck: #111111;
+
+$join-card-border: white;
+$join-card-bck: #090909;

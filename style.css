@@ -72,6 +72,11 @@ span {
 .about-footer a:active {
   color: #ffb358; }
 
+.discord-link {
+  padding: 10px;
+  border-radius: 25px;
+  background-color: #8a9cfe; }
+
 i {
   color: #f7941d; }
 
@@ -92,11 +97,11 @@ nav li {
   color: white; }
 
 .navbar {
-  background-color: #111111; }
+  background-color: #090909; }
 
 .notice-div {
   padding: 10px;
-  background-color: #111111;
+  background-color: #090909;
   color: white; }
   .notice-div a {
     color: #f7941d; }
@@ -109,7 +114,7 @@ nav li {
 footer {
   margin-top: -25px;
   padding: 25px;
-  background-color: #111111; }
+  background-color: #090909; }
   footer img {
     margin: 10px 0 10px 0; }
   footer ul {
@@ -142,7 +147,7 @@ body {
   background-size: cover; }
 
 .landing-div {
-  padding-top: 100px; }
+  padding-top: 200px; }
 
 .landing-gap {
   margin-top: 200px; }
@@ -166,8 +171,33 @@ body {
   margin: 0 20px 0 20px;
   padding: 20px; }
 
+.join-div {
+  padding-top: 25px;
+  margin-top: -50px;
+  margin-bottom: 50px;
+  background-color: #1c1c1c; }
+
+.join-card {
+  border-radius: 25px;
+  border: 2px solid white;
+  background-color: #090909;
+  padding: 20px;
+  width: 200px;
+  height: 200px; }
+
 .jumbotron {
   background-color: #111111; }
 
 .card {
   background-color: #111111; }
+
+.event_thumbnail {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  height: auto;
+  max-height: 500px; }
+  .event_thumbnail img {
+    display: block;
+    margin: auto; }

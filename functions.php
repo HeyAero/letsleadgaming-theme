@@ -7,6 +7,8 @@ function theme_files() {
     wp_enqueue_style('font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
     wp_enqueue_script( 'jquery', '//cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js');
     wp_enqueue_script('font-family', '//fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;600;700;800;900&display=swap');
+    wp_enqueue_script('waypoints-import', 'https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js');
+    wp_enqueue_script('waypoints-file', get_template_directory_uri() . '/js/waypoints.js', array());
 }
 add_action( 'wp_enqueue_scripts', 'theme_files' );
 

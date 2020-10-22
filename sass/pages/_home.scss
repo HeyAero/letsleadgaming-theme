@@ -11,7 +11,7 @@ body {
 }
 
 .landing-div {
-  padding-top: 100px;
+  padding-top: 200px;
 }
 
 .landing-gap {
@@ -41,4 +41,20 @@ body {
 .row-content {
   margin: 0 20px 0 20px;
   padding: 20px;
+}
+
+.join-div {
+  padding-top: 25px;
+  margin-top: -50px;
+  margin-bottom: 50px;
+  background-color: $body-color;
+}
+
+.join-card {
+  border-radius: 25px;
+  border: 2px solid $join-card-border;
+  background-color: $join-card-bck;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
 }
