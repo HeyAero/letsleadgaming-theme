@@ -57,7 +57,7 @@ $category = implode(",", get_terms(array('taxonomy' => 'mec_category','hide_empt
     <hr>
     <div class="text-center">
         <h3>Event Hosted on Discord</h3>
-        <a href="#"><img class="text-center" src="http://letsleadgaming.test/wp-content/uploads/2020/10/discord.png" style="width: 200px;"></a>
+        <a href="#"><img class="text-center" src="http://letslead.yourlocaldev.com/wp-content/uploads/2020/10/discord.png" style="width: 200px;"></a>
         <p>Join by clicking above!</p>
     </div>
     <hr>
