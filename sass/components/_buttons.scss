@@ -28,3 +28,16 @@
   border-radius: 25px;
   background-color: $discord-color;
 }
+
+.send-button {
+  padding: 10px 50px 10px 50px;
+  border-radius: 25px;
+  background-color: $send-button-color;
+  color: white;
+}
+
+.send-button:hover {
+  color: white;
+  background-color: $send-bck-color;
+  text-decoration: none;
+}
